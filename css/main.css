@@ -1,0 +1,28 @@
+#main {
+  display: flex;
+  margin: 3em 0 0 0;
+}
+
+.section {
+  margin: 0 1em 0 1em;
+  width: 100%;
+}
+
+#submit-button {
+  width: 4em;
+  height: 1em;
+  padding: 0.1em 0 0.3em 0;
+  border: solid black 0.1em;
+  border-radius: 0.3em;
+  text-align: center;
+}
+
+#submit-button:hover {
+  border-color: green;
+  cursor: pointer;
+  color: green;
+}
+
+#submittedResultHeader {
+  display: none;
+}
